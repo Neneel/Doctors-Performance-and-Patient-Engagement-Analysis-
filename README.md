@@ -24,6 +24,7 @@ Healthcare facilities are constantly striving to improve efficiency and patient 
 
 By analyzing this data, we can identify trends in workload distribution, appointment delays, and the demand for different medical procedures. These insights can help hospitals and clinics allocate resources better, streamline operations, and enhance the quality-of-care patients receive.
 
+
 ### Objectives
 
 1.	To assess doctors’ workload
@@ -35,6 +36,7 @@ By analyzing this data, we can identify trends in workload distribution, appoint
 7.	To analyze procedure demand
    
 9.	To assess patient engagement & frequency 
+
 
 ### Research questions
 
@@ -48,9 +50,11 @@ By analyzing this data, we can identify trends in workload distribution, appoint
 
 •	Which patients have the highest number of visits, and what factors influence their engagement levels?
 
+
 ### DATA DESCRIPTION 
 
 Four tables will be used for this analysis. The patient table stores information about individual patients, including their names and contact details. The doctors table contains details about healthcare providers, including their names, specializations, and contact information. The appointment table records scheduled appointments, linking patients to doctors. The medical procedure table stores details about medical procedures associated with specific appointments.
+
 
 ### Key Features
 ### Patients Table:
@@ -99,26 +103,28 @@ For Visualizations: PowerBI
 ## METHODOLOGY
 The data was retrieved from a structured SQL database, and joins were performed to establish relationships between tables.
 
-Data Cleaning
+### Data Cleaning
 
 •	Missing values: Tables were checked for missing values, and none were found.
+
 •	Inconsistencies: Columns with inconsistent case format were uniformed. The ‘Datetime’ column was converted to ‘hh: mm: ss’ data type
+
 •	Merged Columns: In doctors table, ‘Firstname’ column was merged with ‘Email’ column to create a proper email address. The ‘Firstname’ column was merged with the ‘Lastname’ column to create ‘PatientName’ column.
 
-Data Analysis
-1.	To assess doctors’ workload 
+### Data Analysis
+### 1.	To assess doctors’ workload 
 •	Doctors were categorized into workload levels using a CASE statement.
 •	Identified potential underutilized and overworked doctors.
 
-2.	To identify specialization trends
+### 2.	To identify specialization trends
 •	A CTE (Specialization_summary) was created to analyze patient volume per specialization.
 •	A CASE statement was used to classify specializations based on patient volume.
 
-3.	To ascertain common medical procedures per specialization 
+### 3.	To ascertain common medical procedures per specialization 
 •	ROW_NUMBER () was used to determine the most performed procedure per specialization.
 •	The query helps in resource allocation and specialization-based insights. 
 
-4.	To analyze procedure demand 
+#### 4.	To analyze procedure demand 
 •	A CTE (Procedure_summary) calculated the total procedures per doctor.
 •	A CASE statement classified procedures into High, Moderate, and Low Demand.
 
