@@ -158,8 +158,9 @@ After executing the queries, the results were analyzed to extract patterns:
 
 
 ## VISUALIZATIONS
-![image (3)](https://github.com/user-attachments/assets/9a5f3412-0734-4a71-b709-e48a724dd617)
 ![image (2)](https://github.com/user-attachments/assets/72d99f6e-794f-491d-ba04-dfcca616b8cc)
+![image (3)](https://github.com/user-attachments/assets/9a5f3412-0734-4a71-b709-e48a724dd617)
+
 
 
 ## FINDINGS
