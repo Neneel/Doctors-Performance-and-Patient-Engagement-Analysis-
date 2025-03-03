@@ -60,29 +60,47 @@ Four tables will be used for this analysis. The patient table stores information
 
 •	Email: Email address of the patient.
 
-Doctors Table:
+### Doctors Table:
 •	DoctorID: Unique identifier for each doctor.
+
 •	DoctorName: Full name of the doctor.
+
 •	Specialization: Area of medical specialization.
+
 •	DoctorContact: Contact details of the doctor.
 
 
-Appointments Table:
+### Appointments Table:
 •	AppointmentID: Unique identifier for each appointment.
+
 •	Date: Date of the appointment.
+
 •	Time: Time of the appointment.
+
 •	PatientID: Foreign key referencing the Patients table, indicating the patient for the appointment.
+
 •	DoctorID: Foreign key referencing the Doctors table, indicating the doctor for the appointment.
 
-Medical Procedure Table:
+### Medical Procedure Table:
 •	ProcedureID: Unique identifier for each medical procedure.
+
 •	ProcedureName: Name or description of the medical procedure.
+
 •	AppointmentID: Foreign key referencing the Appointments table, indicating the appointment associated with the procedure.
 
+### Tools Used 
+For Data cleaning: SQLServer
 
-METHODOLOGY
-The data was retrieved from a structured SQL database, and joins were performed to establish relationships between tables. 
+For Analysis: SQLServer
+
+For Visualizations: PowerBI
+
+
+## METHODOLOGY
+The data was retrieved from a structured SQL database, and joins were performed to establish relationships between tables.
+
 Data Cleaning
+
 •	Missing values: Tables were checked for missing values, and none were found.
 •	Inconsistencies: Columns with inconsistent case format were uniformed. The ‘Datetime’ column was converted to ‘hh: mm: ss’ data type
 •	Merged Columns: In doctors table, ‘Firstname’ column was merged with ‘Email’ column to create a proper email address. The ‘Firstname’ column was merged with the ‘Lastname’ column to create ‘PatientName’ column.
