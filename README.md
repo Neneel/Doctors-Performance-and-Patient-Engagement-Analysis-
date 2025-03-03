@@ -1,15 +1,16 @@
 # Doctors-Performance-and-Patient-Engagement-Analysis-
 This repository contains detailed information about the Doctors Performance and Patient Engagement Analysis
 
-#PROJECT TITLE: Doctor Performance and Patient Engagemnt Analysis
+# PROJECT TITLE: Doctor Performance and Patient Engagemnt Analysis
 
-[Table of Contents](Table of Contents)
 
 [Introduction](Introduction)
 
-[Data Description](Data Description)
+[Data Description](Data-Description)
 
 [Methodology](Methodology)
+
+[Queries](Queries)
 
 [Visualizations](Visualizations)
 
@@ -18,11 +19,13 @@ This repository contains detailed information about the Doctors Performance and 
 [Recommendations](Recommendations)
 
 
-INTRODUCTION
+## INTRODUCTION
 Healthcare facilities are constantly striving to improve efficiency and patient care. One key aspect of this is understanding doctor performance and workload. This analysis looks at data from patients, doctors, appointments, and medical procedures to gain insights into how doctors manage their time, how efficiently appointments are managed, and what factors impact patient satisfaction.
+
 By analyzing this data, we can identify trends in workload distribution, appointment delays, and the demand for different medical procedures. These insights can help hospitals and clinics allocate resources better, streamline operations, and enhance the quality-of-care patients receive.
 
-Objectives
+### Objectives
+
 1.	To assess doctors’ workload 
 2.	To identify specialization trends
 3.	To ascertain common medical procedures per specialization 
