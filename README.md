@@ -1,7 +1,7 @@
 # Doctors-Performance-and-Patient-Engagement-Analysis-
 This repository contains detailed information about the Doctors Performance and Patient Engagement Analysis
 
-# PROJECT TITLE: Doctor Performance and Patient Engagemnt Analysis
+# PROJECT TITLE: Doctor Performance and Patient Engagement Analysis
 
 
 [Introduction](Introduction)
@@ -26,25 +26,38 @@ By analyzing this data, we can identify trends in workload distribution, appoint
 
 ### Objectives
 
-1.	To assess doctors’ workload 
-2.	To identify specialization trends
-3.	To ascertain common medical procedures per specialization 
-4.	To analyze procedure demand 
-5.	To assess patient engagement & frequency 
+1.	To assess doctors’ workload
+   
+3.	To identify specialization trends
+   
+5.	To ascertain common medical procedures per specialization
+   
+7.	To analyze procedure demand
+   
+9.	To assess patient engagement & frequency 
 
-Research questions
+### Research questions
+
 •	How does the number of appointments vary among doctors, and what patterns can be observed in workload distribution?
+
 •	Which medical specializations handle the highest number of unique patients and procedures?
+
 •	Which medical procedures are most frequently performed within each specialization?
+
 •	Which medical procedures are in the highest demand, and which doctors perform them most frequently?
+
 •	Which patients have the highest number of visits, and what factors influence their engagement levels?
-DATA DESCRIPTION 
+
+### DATA DESCRIPTION 
+
 Four tables will be used for this analysis. The patient table stores information about individual patients, including their names and contact details. The doctors table contains details about healthcare providers, including their names, specializations, and contact information. The appointment table records scheduled appointments, linking patients to doctors. The medical procedure table stores details about medical procedures associated with specific appointments.
 
-Key Features
-Patients Table:
+### Key Features
+### Patients Table:
 •	PatientID: Unique identifier for each patient.
+
 •	PatientName: First name of the patient.
+
 •	Email: Email address of the patient.
 
 Doctors Table:
