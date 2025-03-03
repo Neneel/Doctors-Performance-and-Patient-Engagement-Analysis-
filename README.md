@@ -132,25 +132,34 @@ The data was retrieved from a structured SQL database, and joins were performed 
 •	A subquery counted the total visits per patient.
 •	A CASE statement classified patients into:
 
- Frequent Visitors (≥ 4 visits)
-	Occasional Visitors (1–3 visits)
-	Non-Visitors (0 visits)
+a. Frequent Visitors (≥ 4 visits)
+
+b. Occasional Visitors (1–3 visits)
+
+c. Non-Visitors (0 visits)
 
 
 ### Data Analysis and Interpretation
 After executing the queries, the results were analyzed to extract patterns:
 
 1.	Workload distribution among doctors helped in identifying overburdened and underutilized medical staff.
-2.	Specialization trends revealed which fields handle the most patients and procedures.
-3.	Procedure frequency analysis provided insights into hospital resource planning and demand forecasting.
-4.	Patient engagement tracking identified individuals with frequent hospital visits, allowing for targeted patient follow-ups.
+   
+3.	Specialization trends revealed which fields handle the most patients and procedures.
+   
+5.	Procedure frequency analysis provided insights into hospital resource planning and demand forecasting.
+   
+7.	Patient engagement tracking identified individuals with frequent hospital visits, allowing for targeted patient follow-ups.
+   
 
-FINDINGS
-1.	Workload distribution among doctors
+## FINDINGS
+#### 1.	Workload distribution among doctors
+
 20 doctors have a High Workload, 43 doctors have a Moderate Workload, 317 doctors have a Low Workload, and 120 doctors have No Workload.
-2.	Specialization trends
+
+#### 2.	Specialization trends
 66.67% of specializations have High Patient Volume and the remaining 33.33% have a Low Patient Volume 
-3.	Procedure frequency analysis
+
+#### 3.	Procedure frequency analysis
 
 Comprehensive geriatric assessment procedure has the highest demand in the High Demand Category.
 
@@ -158,7 +167,7 @@ Allergy testing procedure has the highest demand in the Moderate Demand Category
 
 Advanced cardiac life support procedure has the highest demand in the Low Demand Category.
 
-4.	Patient engagement tracking
+#### 4.	Patient engagement tracking
 
 65.06% of the patients visit Occasionally, 32.28% of the patients have No visits and 2.66% of the patients visit Frequently.
 
