@@ -4,15 +4,18 @@ This repository contains detailed information about the Doctors Performance and 
 #PROJECT TITLE: Doctor Performance and Patient Engagemnt Analysis
 
 [Table of Contents](Table of Contents)
-IntroductionIntroduction
-Data DescriptionData Description
-MethodologyMethodology
+
+[Introduction](Introduction)
+
+[Data Description](Data Description)
+
+[Methodology](Methodology)
 
 [Visualizations](Visualizations)
 
 [Findings](Findings)
 
-RecommendationsRecommendations)
+[Recommendations](Recommendations)
 
 
 INTRODUCTION
