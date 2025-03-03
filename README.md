@@ -57,14 +57,14 @@ Four tables will be used for this analysis. The patient table stores information
 
 
 ### Key Features
-### Patients Table:
+#### Patients Table:
 •	PatientID: Unique identifier for each patient.
 
 •	PatientName: First name of the patient.
 
 •	Email: Email address of the patient.
 
-### Doctors Table:
+#### Doctors Table:
 •	DoctorID: Unique identifier for each doctor.
 
 •	DoctorName: Full name of the doctor.
@@ -74,7 +74,7 @@ Four tables will be used for this analysis. The patient table stores information
 •	DoctorContact: Contact details of the doctor.
 
 
-### Appointments Table:
+#### Appointments Table:
 •	AppointmentID: Unique identifier for each appointment.
 
 •	Date: Date of the appointment.
@@ -85,14 +85,14 @@ Four tables will be used for this analysis. The patient table stores information
 
 •	DoctorID: Foreign key referencing the Doctors table, indicating the doctor for the appointment.
 
-### Medical Procedure Table:
+#### Medical Procedure Table:
 •	ProcedureID: Unique identifier for each medical procedure.
 
 •	ProcedureName: Name or description of the medical procedure.
 
 •	AppointmentID: Foreign key referencing the Appointments table, indicating the appointment associated with the procedure.
 
-### Tools Used 
+#### Tools Used 
 For Data cleaning: SQLServer
 
 For Analysis: SQLServer
@@ -112,30 +112,34 @@ The data was retrieved from a structured SQL database, and joins were performed 
 •	Merged Columns: In doctors table, ‘Firstname’ column was merged with ‘Email’ column to create a proper email address. The ‘Firstname’ column was merged with the ‘Lastname’ column to create ‘PatientName’ column.
 
 ### Data Analysis
-### 1.	To assess doctors’ workload 
+#### 1.	To assess doctors’ workload 
 •	Doctors were categorized into workload levels using a CASE statement.
 •	Identified potential underutilized and overworked doctors.
 
-### 2.	To identify specialization trends
+#### 2.	To identify specialization trends
 •	A CTE (Specialization_summary) was created to analyze patient volume per specialization.
 •	A CASE statement was used to classify specializations based on patient volume.
 
-### 3.	To ascertain common medical procedures per specialization 
+#### 3.	To ascertain common medical procedures per specialization 
 •	ROW_NUMBER () was used to determine the most performed procedure per specialization.
 •	The query helps in resource allocation and specialization-based insights. 
 
-#### 4.	To analyze procedure demand 
+##### 4.	To analyze procedure demand 
 •	A CTE (Procedure_summary) calculated the total procedures per doctor.
 •	A CASE statement classified procedures into High, Moderate, and Low Demand.
 
-5.	To assess patient engagement & frequency 
+#### 5.	To assess patient engagement & frequency 
 •	A subquery counted the total visits per patient.
 •	A CASE statement classified patients into:
-	Frequent Visitors (≥ 4 visits)
+
+ Frequent Visitors (≥ 4 visits)
 	Occasional Visitors (1–3 visits)
 	Non-Visitors (0 visits)
-Data Analysis and Interpretation
+
+
+### Data Analysis and Interpretation
 After executing the queries, the results were analyzed to extract patterns:
+
 1.	Workload distribution among doctors helped in identifying overburdened and underutilized medical staff.
 2.	Specialization trends revealed which fields handle the most patients and procedures.
 3.	Procedure frequency analysis provided insights into hospital resource planning and demand forecasting.
