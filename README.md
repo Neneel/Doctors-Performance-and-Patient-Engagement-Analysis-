@@ -149,7 +149,18 @@ After executing the queries, the results were analyzed to extract patterns:
 5.	Procedure frequency analysis provided insights into hospital resource planning and demand forecasting.
    
 7.	Patient engagement tracking identified individuals with frequent hospital visits, allowing for targeted patient follow-ups.
-   
+
+## QUERIES
+![carbon (4)](https://github.com/user-attachments/assets/6ca7fbdd-30fe-4cab-b206-45fde566e5a1)
+![doctor (1)](https://github.com/user-attachments/assets/a473b7d7-a783-4c50-9778-af9eb2e68267)
+![doctor](https://github.com/user-attachments/assets/c923bfa6-d624-4086-8b1b-7afcf0eda9f3)
+![doctor sql](https://github.com/user-attachments/assets/167108da-393f-4a40-a5e7-dbf722d1ce8a)
+
+
+## VISUALIZATIONS
+![image (3)](https://github.com/user-attachments/assets/9a5f3412-0734-4a71-b709-e48a724dd617)
+![image (2)](https://github.com/user-attachments/assets/72d99f6e-794f-491d-ba04-dfcca616b8cc)
+
 
 ## FINDINGS
 #### 1.	Workload distribution among doctors
@@ -174,9 +185,12 @@ Advanced cardiac life support procedure has the highest demand in the Low Demand
 The findings were visualized using Power BI for better interpretation.
 
 
-RECOMMENDATIONS
+## RECOMMENDATIONS
 1.	Workload Distribution: Redistribute patient appointments to balance doctors' workloads and prevent burnout, using a dynamic scheduling system for real-time adjustments.
-2.	Specialization Trends: Support high-demand specializations by hiring more staff or improving patient management. For low-demand specializations, consider marketing or consolidating specialties.
-3.	Procedure Frequency: Prioritize high-demand procedures (like geriatric assessments) by ensuring adequate resources and forming dedicated teams for these procedures.
-4.	Patient Engagement: Increase visit frequency by encouraging regular check-ups through outreach programs, reminders, and education. Investigate low engagement for patients with no visits and find ways to improve accessibility or appeal.
+
+3.	Specialization Trends: Support high-demand specializations by hiring more staff or improving patient management. For low-demand specializations, consider marketing or consolidating specialties.
+   
+5.	Procedure Frequency: Prioritize high-demand procedures (like geriatric assessments) by ensuring adequate resources and forming dedicated teams for these procedures.
+   
+7.	Patient Engagement: Increase visit frequency by encouraging regular check-ups through outreach programs, reminders, and education. Investigate low engagement for patients with no visits and find ways to improve accessibility or appeal.
 
